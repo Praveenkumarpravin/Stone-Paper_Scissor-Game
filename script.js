@@ -6,11 +6,6 @@ const imgElements = toolImages.map(src => {
   return img;
 });
 
-
-
-
-
-
 document.getElementById("toolImg1").appendChild(imgElements[0]);
 document.getElementById("toolImg2").appendChild(imgElements[1]);
 document.getElementById("toolImg3").appendChild(imgElements[2]);
